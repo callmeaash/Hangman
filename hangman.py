@@ -4,7 +4,7 @@ import argparse
 from words import vegetable, fruit
 parser = argparse.ArgumentParser(description='Hangman gameeeeeeee!!!', usage='%(prog)s -c fruit')
 parser.add_argument('-c','--category', help='choose category of questions either fruit or vegetable', required=True)
-aeg =[]
+arg =[]
 arg = parser.parse_args()
 categories = {
     'fruit': fruit,
